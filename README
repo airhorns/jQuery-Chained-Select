@@ -1,0 +1,11 @@
+h1. jQuery Chained Select plugin
+
+Some small enhancements to Stanislaus Madueke's super existing jQuery chained select plugin found at : http://elo80ka.wordpress.com/2009/10/14/jquery-plugin-chained-select-lists/,
+which is an enhancement to Remy Sharp's also great plugin fount at : http://remysharp.com/2007/09/18/auto-populate-multiple-select-boxes/
+
+h2. Added Features
+
+ * Page wide ajax and on-page result caching. If it appears on the page on load or is fetched once via ajax, it won't be again. Speedy.
+ * Attachment and preservation of handy unobtrusive non-validating "data" attributes on options in the selects. Allows for advanced logic and or data to be built upon the chained selects.
+   This is separate from the jQuery metadata plugin which can be used to configure the plugin.
+ * General bug fixes and enhancements, jQuery 1.4 compatibility. 
